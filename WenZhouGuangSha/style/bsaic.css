@@ -1,0 +1,108 @@
+*{
+    magrin:0;
+    padding: 0;
+
+}
+
+body{
+    width: 867px;
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+#header{
+    width: 867px;
+    height: 323px;
+   background: green;
+
+
+}
+
+#sidebar{
+    width: 251px;
+    height: 490px;
+    background: #cc1919;
+    float: left;
+ }
+
+#news{
+    width: 313px;
+    height: 300px;
+    background: greenyellow;
+    float:left;
+
+
+}
+
+
+#about{
+    width:303px ;
+    height: 300px;
+    background: navy;
+    float: left;
+}
+
+#estate{
+    width: 616px;
+    height: 190px;
+    background: #fdff2f;
+    float: left;
+}
+#nav{
+    width: 867px;
+    height: 51px;
+    background: url(../images/linkbg.jpg);
+}
+#nav ul{
+
+    height: 51px;
+    line-height: 51px;
+
+
+
+}
+#nav ul li {
+    display: inline;
+    text-align: center;
+    height: 51px;
+    width: 124px;
+    float: left;
+    background: url(../images/linkr.gif) no-repeat right center;
+    /*
+    每个块的长度为124
+    6个的长度为744
+    最后一个长度无 123
+    */
+}
+
+#nav ul li.liend{
+    width: 123px;
+    background: none;
+}
+
+#nav ul li a{
+    color: #fff;
+    display: inline-block;
+    width: 123px;
+    height: 51px;
+    text-decoration: none;
+}
+#nav ul li  a:hover{
+  text-decoration: underline;
+  color: #fdff2f;
+ }
+
+#nav ul li.liend a{
+    width:123px;
+}
+#footer{
+    clear: both;
+    width: 867px;
+    height:110px ;
+    background: rgba(21, 204, 70, 0.8);
+}
