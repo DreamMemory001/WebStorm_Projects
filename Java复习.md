@@ -7,6 +7,7 @@ public static void  binarySearch(double [] a, double number ){}
 在进行二分法查找时 先得进行排序工作 调用：
 public static void sort(double [] a, int start, int end ){}
 
+
 他返回的是一个位置信息
 封装：
  封装是把过程和数据包围起来，对数据的访问只能通过已定义的接口。
