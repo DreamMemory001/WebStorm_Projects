@@ -15,7 +15,6 @@
  
 ![第二项目图](/images/Second_Project.gif)      
 
-
 ###  Third Project
 [天天生鲜](https://github.com/DreamMemory001/WebStorm_Projects/tree/master/JavaWeb_Practice) This is a Web Page to sale fruit.
 
